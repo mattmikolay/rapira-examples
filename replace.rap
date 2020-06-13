@@ -13,6 +13,6 @@ proc REPLACE ( <=WHERE, =>WHAT, =>BY_WHAT )
     od
 end
 
-FAIRYTAIL:= "Somebody said," + lf + """Bother!""" + lf + "And then he said," + lf + """Oh, deary me!""" + lf + "Somebody sobbed, """Oh, deary me!""" + lf + "And went back to bed."
+FAIRYTAIL:= "Somebody said," + lf + """Bother!""" + lf + "And then he said," + lf + """Oh, deary me!""" + lf + "Somebody sobbed, ""Oh, deary me!""" + lf + "And went back to bed."
 REPLACE (<=FAIRYTAIL, =>"Somebody", =>"The King")
 output: FAIRYTAIL
